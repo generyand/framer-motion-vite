@@ -25,7 +25,7 @@ export function Tracer() {
               }}
               transition={{
                 duration: 0.8,
-                delay: 0.5,
+                delay: 0.25,
               }}
               viewport={{ once: true }}
               className="px-4 py-1 mb-4 text-sm text-white bg-black rounded-full w-fit"
@@ -44,7 +44,7 @@ export function Tracer() {
               }}
               transition={{
                 duration: 0.8,
-                delay: 0.5,
+                delay: 0.25,
               }}
               viewport={{ once: true }}
               className={twMerge("text-xl mb-4")}
@@ -63,7 +63,7 @@ export function Tracer() {
               }}
               transition={{
                 duration: 0.8,
-                delay: 0.5,
+                delay: 0.25,
               }}
               viewport={{ once: true }}
               className="text-sm prose-sm prose dark:prose-invert"
@@ -82,12 +82,12 @@ export function Tracer() {
               }}
               transition={{
                 duration: 0.8,
-                delay: 0.5,
+                delay: 0.25,
               }}
               viewport={{ once: true }}
               className="text-sm prose-sm prose dark:prose-invert"
             >
-              <h1 className="text-2xl font-bold">Header</h1>
+              <h1 className="text-2xl font-bold cursor-pointer hover:underline">Header</h1>
               {item.description}
             </motion.div>
           </div>

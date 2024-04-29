@@ -15,6 +15,9 @@ export function Hero() {
           duration: 0.8,
           ease: "easeInOut",
         }}
+        viewport={{
+            once: true
+        }}
         className="relative flex flex-col items-center justify-center gap-4 px-4"
       >
         <div className="text-3xl font-bold text-center md:text-7xl dark:text-white">
